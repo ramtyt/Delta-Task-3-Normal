@@ -1,0 +1,53 @@
+.backimage{
+  background-image:url('https://monodomo.com/free-wallpapers/avengers-wallpapers-for-iphone-For-Free-Wallpaper.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:995px;
+}
+
+.you{
+  color:rgba(215,187,43,1.0);
+  font-size:32px;
+}
+
+.forms{
+  color:rgba(148,12,16,1.0);
+  font-size:32px;
+}
+
+textarea {
+  width:700px;
+  border:none;
+  border-bottom:2px solid red;
+  background-color:rgba(0,0,0,0.2);
+  color:white;
+  font-size:18px;
+
+}
+
+input{
+  width:250px;
+  border:none;
+  border-bottom:3px solid red;
+  background-color:rgba(0,0,0,0.2);
+  color:white;
+}
+
+
+.card2{
+  padding-left:100px;
+}
+
+.title{
+  width:50px;
+  padding-left:250px;
+  padding-top:18px;
+}
+
+.space{
+  height:78px;
+}
+
+.button{
+  cursor:pointer;
+}

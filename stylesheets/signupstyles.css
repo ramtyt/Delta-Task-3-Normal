@@ -1,0 +1,47 @@
+.backimage{
+  background-image:url('https://wallpaperaccess.com/full/882472.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:678px;
+}
+
+.you{
+  color:rgba(215,187,43,1.0);
+  font-size:32px;
+}
+
+.forms{
+  color:rgba(148,12,16,1.0);
+  font-size:32px;
+}
+.column{
+ padding-top:100px;
+ padding-left:120px;
+ position:center;
+ width:35%;
+ float:left;
+}
+
+.card{
+  color:white;
+  background-color:rgba(0,0,0,0.2);
+  font-size:20px;
+  padding-left:38px;
+  padding-top:30px;
+}
+
+#card1{
+  height:290px;
+}
+
+.button{
+  color:white;
+  background-color:rgba(0,0,0,0.2);
+  cursor:pointer;
+}
+
+.signin-link{
+  padding-top:450px;
+  padding-left:130px;
+  color:white;
+}

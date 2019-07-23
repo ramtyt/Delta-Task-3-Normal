@@ -1,0 +1,30 @@
+body{
+  color:rgb(255,255,255);
+  background-color:black;
+
+}
+
+#div1{
+  padding-left:300px;
+  padding-top:250px;
+}
+
+#div2{
+  padding-top:30px;
+  padding-left:400px;
+}
+
+#div3{
+  padding-top:40px;
+  padding-left:430px;
+}
+.image{
+  background-image:url('https://optinmonster.com/wp-content/uploads/2016/10/Anatomy-of-the-Perfect-Thank-You-Page.png');
+  height:640px;
+}
+
+.button{
+  color:white;
+  background-color:rgba(0,0,0,0.3);
+  font-size:14px;
+}

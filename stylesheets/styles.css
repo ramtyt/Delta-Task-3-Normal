@@ -1,0 +1,52 @@
+.backimage{
+  background-image:url('https://livewallpaperhd.com/wp-content/uploads/2019/03/Wallpapers-Computer-Avengers-Endgame.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:678px;
+
+
+}
+.you{
+  color:rgba(215,187,43,1.0);
+  font-size:32px;
+}
+
+.forms{
+  color:rgba(148,12,16,1.0);
+  font-size:32px;
+}
+
+
+.column{
+ padding-top:100px;
+ padding-left:120px;
+ position:center;
+ width:35%;
+ float:left;
+}
+
+.card{
+  color:white);
+  background-color:rgba(0,0,0,0.2);
+  font-size:20px;
+  padding-left:38px;
+  padding-top:30px;
+}
+
+.button{
+  color:white;
+  background-color:rgba(0,0,0,0.2);
+  cursor:pointer;
+}
+
+#card2{
+  height:290px;
+}
+
+
+
+.quote{
+  color:white;
+  padding-top:200px;
+  padding-left:700px;
+}
