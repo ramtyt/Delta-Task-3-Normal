@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>View your Form</title>
+    <link rel='stylesheet' type='text/css' href='/displaystyle.css'>      <!-- page that displays creatred form-->
+  </head>
+  <body>
+    <div class="topnav">
+      <span class='you'>Stark<span class='forms'>Forms</span></span>
+
+    </div>
+
+
+<fieldset>
+
+  <div class='set'>
+    <div class='title'>
+      <% var i=0 %>
+       <p> <%= data[i].title %></p>
+    </div>
+  <p><%= data[i].description %> </p><br><br>
+  <p><%= data[i].question1 %> </p><br><br>
+  <textarea type='text' placeholder='Answer1' ></textarea><br><br>
+  <p><%= data[i].question2 %> </p><br><br>
+  <textarea type='text' placeholder='Answer2' ></textarea><br><br>
+  <p><%= data[i].question3 %> </p><br><br>
+  <textarea type='text' placeholder='Answer3' ></textarea><br><br>
+  <p><%= data[i].question4 %> </p><br><br>
+  <textarea type='text' placeholder='Answer4' ></textarea><br><br>
+  <p><%= data[i].question5 %> </p><br><br>
+  <textarea type='text' placeholder='Answer5' ></textarea>
+  <% i++ %>
+</div>
+</fieldset>
+
+
+
+
+
+  </body>
+</html>

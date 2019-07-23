@@ -1,0 +1,38 @@
+  <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>View your Form</title>
+        <link rel='stylesheet' type='text/css' href='/displaystyle.css'>
+      </head>
+      <body>
+        <div class="topnav">
+          <span class='you'>Stark<span class='forms'>Forms</span></span>
+
+        </div>
+
+
+    <fieldset>
+
+      <div class='set'>
+
+        <div class='title'>
+          <% var i=0 %>
+
+        </div>
+
+
+      <p >[1] <%= data[0].answer1 %> </p><br><br>                     <!-- embedded javascript -->
+
+      <p> [2] <%= data[0].answer2 %> </p><br><br>                     <!--Displaying Responses as per collected from users -->
+
+      <p> [3] <%= data[0].answer3 %> </p><br><br>
+      <p> [4] <%= data[0].answer4 %> </p><br><br>
+      <p> [5] <%= data[0].answer5 %> </p><br><br>
+
+
+      <% i++ %>
+    </div>
+    </fieldset>
+  </body>
+</html>

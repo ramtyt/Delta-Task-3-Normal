@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>                                                                    <!--Display page to display questions and to submit response-->
+    <meta charset="utf-8">
+    <title>View your Form</title>
+    <link rel='stylesheet' type='text/css' href='/displaystyle.css'>
+  </head>
+  <body>
+    <div class="topnav">
+      <span class='you'>Stark<span class='forms'>Forms</span></span>
+
+    </div>
+
+
+<fieldset>
+
+  <div class='set'>
+    <form action='/form/submit' method='post'>
+    <div class='title'>
+      <% var i=0 %>
+       <p> <%= data[i].title %></p>
+    </div>
+  <p><%= data[i].description %> </p><br><br>                             <!-- embedded js -->
+  <p><%= data[i].question1 %> </p><br><br>
+  <textarea type='text'  name='answer1' placeholder='Answer1' ></textarea><br><br>
+  <p><%= data[i].question2 %> </p><br><br>
+  <textarea type='text'  name='answer2' placeholder='Answer2' ></textarea><br><br>
+  <p><%= data[i].question3 %> </p><br><br>
+  <textarea type='text'  name='answer3' placeholder='Answer3' ></textarea><br><br>
+  <p><%= data[i].question4 %> </p><br><br>
+  <textarea type='text'  name='answer4' placeholder='Answer4' ></textarea><br><br>
+  <p><%= data[i].question5 %> </p><br><br>
+  <textarea type='text' name='answer5'  placeholder='Answer5' ></textarea><br><br>
+  <button type='submit' class='button'>Submit Response</button>
+  </form>
+  <% i++ %>
+</div>
+</fieldset>
+
+
+
+
+
+  </body>
+</html>
